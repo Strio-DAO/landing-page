@@ -1,0 +1,94 @@
+<template>
+  <v-footer
+    dark
+    padless
+  >
+    <v-col>
+      <v-row id="mainRow" style="margin-top: 30px;">
+        <v-col></v-col>
+        <v-col>
+          <v-row>
+            <div class="d-flex align-center">
+              <v-img
+                alt="Vuetify Logo"
+                class="shrink mr-2"
+                contain
+                src="../assets/images/StrioLogo1.png"
+                transition="scale-transition"
+                width="100"
+              />
+            </div>
+          </v-row>
+          <v-row style="margin-top: 80px;">
+            <span style="color: gray">Certified by Certik</span>
+          </v-row>
+        </v-col>
+        <v-col>
+          <v-row class="fieldRow">
+            <span style="color: gray">Developers</span>
+          </v-row>
+          <v-row class="fieldRow">
+            Documentation
+          </v-row>
+          <v-row class="fieldRow">
+            Github
+          </v-row>
+          <v-row class="fieldRow">
+            API Reference
+          </v-row>
+        </v-col>
+        <v-col>
+          <v-row class="fieldRow">
+            <span style="color: gray">Governance</span>
+          </v-row>
+          <v-row class="fieldRow">
+            STRIO Token
+          </v-row>
+          <v-row class="fieldRow">
+            Forum
+          </v-row>
+          <v-row class="fieldRow">
+            Voting portal
+          </v-row>
+        </v-col>
+        <v-col>
+          <v-row class="fieldRow">
+            <span style="color: gray">Community</span>
+          </v-row>
+          <v-row class="fieldRow">
+            Discord
+          </v-row>
+          <v-row class="fieldRow">
+            Twitter
+          </v-row>
+          <v-row class="fieldRow">
+            Medium
+          </v-row>
+        </v-col>
+        <v-col></v-col>
+      </v-row>
+      <v-divider></v-divider>
+      <v-row style="margin-top: 20px; margin-bottom: 10px;">
+        <v-col></v-col>
+        <v-col><span style="color: gray">Strio 2021</span></v-col>
+        <v-col></v-col>
+        <v-col></v-col>
+        <v-col></v-col>
+        <v-col></v-col>
+      </v-row>
+    </v-col>
+  </v-footer>
+</template>
+
+<script>
+  export default {
+    data: () => ({
+    }),
+  }
+</script>
+
+<style>
+  .fieldRow {
+    margin: 20px;
+  }
+</style>
