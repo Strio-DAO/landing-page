@@ -19,8 +19,8 @@
               />
             </div>
           </v-row>
-          <v-row style="margin-top: 80px;">
-            <span style="color: gray">Certified by Certik</span>
+          <v-row style="margin-top: 120px;">
+            <!-- <span style="color: gray">Certified by Certik</span> -->
           </v-row>
         </v-col>
         <v-col>
@@ -31,7 +31,7 @@
             Documentation
           </v-row>
           <v-row class="fieldRow">
-            Github
+            <a href="https://github.com/Strio-DAO" style="text-decoration:none !important; color: white;" target="_blank">Github</a>
           </v-row>
           <v-row class="fieldRow">
             API Reference
@@ -56,12 +56,13 @@
             <span style="color: gray">Community</span>
           </v-row>
           <v-row class="fieldRow">
-            Discord
+            <a style="text-decoration:none !important; color: white;" href="https://discord.gg/qZwwVuzB" target="_blank">Discord</a>
           </v-row>
           <v-row class="fieldRow">
-            Twitter
+            <a style="text-decoration:none !important; color: white;" href="https://twitter.com/StrioDAO" target="_blank">Twitter</a>
           </v-row>
           <v-row class="fieldRow">
+            <a href=""></a>
             Medium
           </v-row>
         </v-col>
@@ -91,4 +92,5 @@
   .fieldRow {
     margin: 20px;
   }
+
 </style>

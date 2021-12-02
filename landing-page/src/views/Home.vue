@@ -13,11 +13,15 @@
                 
               </v-col>
               <v-col style="color: white;" cols="6" align="center">
-                <v-row style="background: grey; opacity: 0.5; border-radius: 30px; padding: 0px;">
-                  <v-col></v-col>
-                  <v-col></v-col>
-                  <v-col style="margin: 0px; padding: 0px;">
-                    <v-btn class="mr-4 button1" style="background-color: #EF4423; color: white; height: 50px; font-size: 15px; font-family: Aileron; margin: 0px; border-radius: 30px;">Join waitlist</v-btn>
+                <v-row style="background: grey; opacity: 0.6; border-radius: 30px; padding: 0px;">
+                  <v-col cols="9" style="margin: 0px; padding: 0px;">
+                    <input placeholder="Insert your mail" type="text" style="height:50px; margin:0px; margin-left: 20px; width:90%; color: white">
+                  </v-col>
+                  
+                  <v-col cols="3" style="margin: 0px; padding: 0px;">
+                    <v-btn class="button1" style="background-color: #EF4423; color: white; height: 50px; font-size: 15px; font-family: Aileron; margin: 0px; border-radius: 30px;">
+                      Join waitlist
+                    </v-btn>
                   </v-col>
                 </v-row>
               </v-col>
@@ -37,10 +41,13 @@
                 />
               </v-btn>
             </v-row>
-            <v-row id="cardPanel" ref="cardPanel" justify="center" align="center" style="padding:10%;">
+            <v-row id="cardPanel" ref="cardPanel" justify="center" align="center" style="margin-top: 200px;">
               
-              <!-- text -->
-              <v-col style="color: white;" align="left">
+              <v-col></v-col>
+              <v-col>
+                <iframe width="500" height="300" src="https://www.youtube.com/embed?v=ujGSt-93qZo"></iframe>
+              </v-col>
+              <v-col style="color: white; margin-left: 50px;" >
                 <v-row style="margin-bottom: 10px;">
                   <h1>For creators</h1>
                 </v-row>
@@ -60,17 +67,13 @@
                   </v-btn>
                 </v-row>
               </v-col>
-
-              <!-- video -->
-              <v-col>
-                <iframe width="500" height="300" src="https://www.youtube.com/embed?v=ujGSt-93qZo"></iframe>
-              </v-col>
+              <v-col></v-col>
 
             </v-row>
-            <v-row justify="center" align="center" style="padding:10%; margin-bottom: 130px;">
-
-              <!-- text -->
-              <v-col style="color: white;" align="left">
+            <v-row id="cardPanel" ref="cardPanel" justify="center" align="center" style="margin-bottom: 200px; margin-top: 80px;">
+              
+              <v-col></v-col>
+              <v-col style="color: white; margin-right: 50px;" >
                 <v-row style="margin-bottom: 10px;">
                   <h1>For the community</h1>
                 </v-row>
@@ -89,11 +92,10 @@
                   </v-btn>
                 </v-row>
               </v-col>
-
-              <!-- video -->
               <v-col>
                 <iframe width="500" height="300" src="https://www.youtube.com/embed?v=ujGSt-93qZo"></iframe>
               </v-col>
+              <v-col></v-col>
 
             </v-row>
           </v-col>
@@ -104,28 +106,15 @@
               <div style="color:gray; font-size: 70px; font-weight: 600; margin-top: 20px;">BE PART OF IT</div>
             </v-row>
             <v-row justify="center" align="center">
-              <div style="display: inline; margin-top: 30px; margin-right: 200px;">
+              <div style="display: inline; margin-top: 60px;">
                 <v-img
                   width="300px;"
-                  src="../assets/images/tabletPic.png"
-                  style="position: relative; top:200px; left:300px; z-index:2; float:left"
-                ></v-img>
-                <v-img
-                  contain
-                  width="500px;"
-                  src="../assets/images/webAppPic.png"
-                  style="position: relative; top:0; left:0; z-index:1; float:left"
-                ></v-img>
-                <v-img
-                  contain
-                  width="250px;"
-                  src="../assets/images/mobilePic.png"
-                  style="position: relative; top:210px; left:-120px; z-index:2; float:left"
+                  src="../assets/images/GroupImg.png"
                 ></v-img>
               </div>
             </v-row>
             <v-row justify="center" align="center">
-              <div style="color:gray; font-size: 40px; font-weight: 500; margin-top: 200px;">A video streaming platform that you own</div>
+              <div style="color:gray; font-size: 40px; font-weight: 500; margin-top: 100px;">A video streaming platform that you own</div>
             </v-row>
           </v-col>
         </v-row>
@@ -543,5 +532,10 @@ import RoadmapCard from '../components/RoadmapCard.vue';
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+  }
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
   }
 </style>
