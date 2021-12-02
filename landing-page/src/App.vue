@@ -29,31 +29,11 @@
       </v-col>
       <v-col>
         <div align="right">
-          <v-btn dark style="border: 1px solid #EF4423; margin-top: 30px; margin-bottom: 30px;">
+          <v-btn href="https://www.notion.so/Strio-Wiki-cf0ef9581f8a47ae83496c79fb09da5a" target="_blank" dark style="border: 1px solid #EF4423; margin-top: 30px; margin-bottom: 30px;">
             <span style="margin-right:10px;">Wiki page</span>
             <v-icon style="height:5px;">mdi-arrow-right</v-icon>
           </v-btn>
         </div>
-        <!-- <div align="right">
-          <v-btn justify="center" align="center">
-            <v-img
-              contain
-              alt="discord"
-              src="./assets/images/discord.png"
-              fab
-              width="10"
-            />
-          </v-btn>
-          <v-btn justify="center" align="center">
-            <v-img
-              contain
-              alt="discord"
-              src="./assets/images/github.png"
-              fab
-              width="10"
-            />
-          </v-btn>
-        </div> -->
       </v-col>
     </v-app-bar>
 
