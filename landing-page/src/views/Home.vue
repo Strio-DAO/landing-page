@@ -18,18 +18,14 @@
                     <input placeholder="Insert your mail" type="text" style="height:50px; margin:0px; margin-left: 20px; width:90%; color: white">
                   </v-col>
                   
-                  <v-col cols="3" style="margin: 0px; padding: 0px;">
+                  <v-col cols="3" style="margin: 0px; padding: 0px;" align="right">
                     <v-btn class="button1" style="background-color: #EF4423; color: white; height: 50px; font-size: 15px; font-family: Aileron; margin: 0px; border-radius: 30px;">
                       Join waitlist
                     </v-btn>
                   </v-col>
                 </v-row>
               </v-col>
-              <v-col style="color: white" cols="3">
-                
-              </v-col>
-              <!-- <v-btn class="mr-4 button1" style="background-color: #EF4423; color: white; height: 50px; font-size: 15px; font-family: Aileron">Get tokens</v-btn>
-              <v-btn class="button1" style="border: 2px solid #EF4423; color: #EF4423; background: transparent; height: 50px; font-size: 15px; font-family: Aileron">Launch tokens</v-btn> -->
+              <v-col style="color: white" cols="3"></v-col>
             </v-row>
             <v-row justify="center" align="center" style="margin-top: 200px;">
               <v-btn style="background: none; outline: none; border:none;">
@@ -41,36 +37,44 @@
                 />
               </v-btn>
             </v-row>
-            <v-row id="cardPanel" ref="cardPanel" justify="center" align="center" style="margin-top: 200px;">
+            <v-row id="cardPanel" ref="cardPanel" justify="center" align="center" style="margin-top: 100px; padding-top: 200px;">
               
               <v-col></v-col>
               <v-col>
                 <iframe width="500" height="300" src="https://www.youtube.com/embed?v=ujGSt-93qZo"></iframe>
               </v-col>
-              <v-col style="color: white; margin-left: 50px;" >
-                <v-row style="margin-bottom: 10px;">
-                  <h1>For creators</h1>
-                </v-row>
-                <v-row style="margin-bottom: 10px;">
-                  Issue Creator tokens and let your <br>
-                  supporters fund and profit from <br>
-                  your work
-                </v-row>
-                <v-row style="margin-bottom: 30px;">
-                  Upload content as NFTs and <br>
-                  distribute IP amongst your <br>
-                  community
-                </v-row>
+              <v-col style="color: white; margin-left: 100px;">
                 <v-row>
-                  <v-btn class="mr-4" style="background-color: #EF4423; color: white; height: 50px; font-size: 15px; font-family: Aileron; padding: 20px;">
-                    Join creator waitlist
-                  </v-btn>
+                  <v-col>
+
+                  </v-col>
+                  <v-col style="margin-right: 10px;">
+                      <v-row style="margin-bottom: 10px;">
+                        <h1>For creators</h1>
+                      </v-row>
+                      <v-row style="margin-bottom: 10px;">
+                        Issue Creator tokens and let your <br>
+                        supporters fund and profit from <br>
+                        your work
+                      </v-row>
+                      <v-row style="margin-bottom: 30px;">
+                        Upload content as NFTs and <br>
+                        distribute IP amongst your <br>
+                        community
+                      </v-row>
+                      <v-row>
+                        <v-btn class="mr-4" style="background-color: #EF4423; color: white; height: 50px; font-size: 15px; font-family: Aileron; padding: 20px;">
+                          Join creator waitlist
+                        </v-btn>
+                      </v-row>
+                  </v-col>
                 </v-row>
+               
               </v-col>
               <v-col></v-col>
 
             </v-row>
-            <v-row id="cardPanel" ref="cardPanel" justify="center" align="center" style="margin-bottom: 200px; margin-top: 80px;">
+            <v-row justify="center" align="center" style="margin-bottom: 200px; margin-top: 80px;">
               
               <v-col></v-col>
               <v-col style="color: white; margin-right: 50px;" >
@@ -270,7 +274,7 @@
                 </v-sheet>
               </div>
             </v-row>
-            <v-row justify="center" align="center" style="margin-top:-500px;">
+            <v-row justify="center" align="center" style="margin-top:-600px;">
               <v-btn dark style="padding:50px;" class="rounded-pill">
                 <v-img
                   src="../assets/images/StrioDaoLogo1.png"
@@ -311,10 +315,10 @@
             </v-row>
             <v-row>
               <v-col>
-                <roadmap-card :items="launchpadSeasonCard.items" :title="launchpadSeasonCard.title"></roadmap-card>
+                <roadmap-card :items="preSeasonCard.items" :title="preSeasonCard.title"></roadmap-card>
               </v-col>
               <v-col>
-                <roadmap-card :items="preSeasonCard.items" :title="preSeasonCard.title"></roadmap-card>
+                <roadmap-card :items="launchpadSeasonCard.items" :title="launchpadSeasonCard.title"></roadmap-card>
               </v-col>
               <v-col>
                 <roadmap-card :items="streamingSeasonCard.items" :title="streamingSeasonCard.title"></roadmap-card>
@@ -409,7 +413,7 @@
               <h1 style="margin-top: 70px; margin-bottom: 30px;">Know more about Strio</h1>
             </v-row>
             <v-row justify="center" align="center">
-              <v-btn class="mr-4 button1" style="background-color: #EF4423; color: white; height: 50px; font-size: 15px; font-family: Aileron; margin-bottom: 100px;">
+              <v-btn href="https://medium.com/strio-dao" target="_blank" class="mr-4 button1" style="background-color: #EF4423; color: white; height: 50px; font-size: 15px; font-family: Aileron; margin-bottom: 100px;">
                 <span style="margin-right:10px;">Medium page</span>
                 <v-icon style="height:5px;">mdi-arrow-right</v-icon>
               </v-btn>

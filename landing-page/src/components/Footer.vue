@@ -62,8 +62,7 @@
             <a style="text-decoration:none !important; color: white;" href="https://twitter.com/StrioDAO" target="_blank">Twitter</a>
           </v-row>
           <v-row class="fieldRow">
-            <a href=""></a>
-            Medium
+            <a style="text-decoration:none !important; color: white;" href="https://medium.com/strio-dao" target="_blank">Medium</a>
           </v-row>
         </v-col>
         <v-col></v-col>

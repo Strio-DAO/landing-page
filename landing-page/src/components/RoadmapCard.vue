@@ -21,14 +21,15 @@
             align="center"
             class="mx-0"
             >
-            <v-col justify="center" align="center">
-                <div align="center">
-                <ul>
-                    <li v-for="item in items" :key="item">{{item}}</li>
-                </ul>
-                </div>
-            </v-col>
-            
+                <v-col cols="1"></v-col>
+                <v-col cols="10" justify="center" align="center">
+                    <div align="left">
+                    <ul>
+                        <li v-for="item in items" :key="item">{{item}}</li>
+                    </ul>
+                    </div>
+                </v-col>
+                <v-col cols="1"></v-col>
             </v-row>
         </v-card-text>
         </div>
